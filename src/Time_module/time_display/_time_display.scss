@@ -1,0 +1,142 @@
+@import '../../style/variables';
+
+.timeDisplay {
+  text-align: left;
+  transition: transform 0.5s ease-in-out;
+  position: relative;
+
+  &_text {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+  }
+
+  &_icon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.875rem;
+    vertical-align: middle;
+  }
+
+  &_date {
+    font-size: 1.125rem;
+  }
+
+  &_clock {
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &_city {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+  }
+
+  &.expanded {
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .button {
+    background-color: #fff;
+    color: black;
+    padding: 0 3.75rem;
+    border-radius: 24px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease, letter-spacing 0.3s ease;
+    display: flex;
+    align-items: center;
+
+    &_icon {
+      width: 1.25rem;
+      height: 2.5rem;
+      margin-left: 0.875rem;
+      vertical-align: middle;
+
+      &_rotated {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease;
+      }
+    }
+  }
+  @media (min-width: 1281px) {
+    .button{
+      font-size: 28px;
+    }
+  }
+
+  .button:hover {
+    background-color: black;
+    color: #fff;
+    letter-spacing: 5px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 897px) {
+  .timeDisplay {
+    &_text {
+      font-size: 1.5rem;
+      letter-spacing: 0.5rem;
+    }
+
+    &_icon {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+
+    &_date {
+      font-size: 1.5rem;
+    }
+
+    &_clock {
+      font-size: 12rem;
+    }
+
+    &_city {
+      font-size: 2rem;
+    }
+    &_box{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+@media (min-width: 1281px) {
+  .timeDisplay {
+    &_text {
+      font-size: 2.5rem;
+      letter-spacing: 0.75rem;
+      gap:15px
+    }
+
+    &_icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    &_date {
+      font-size: 2rem;
+    }
+
+    &_clock {
+      font-size: 14rem;
+    }
+
+    &_city {
+      font-size: 2.5rem;
+    }
+    &_box{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

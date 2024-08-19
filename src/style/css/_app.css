@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 91.6vh;
+  color: #FFF;
+  padding: 2rem;
+  font-size: 1rem;
+  font-family: Inter;
+}
+
+body.default {
+  background-image: url("../gallery/mobile/loading3.jpg");
+}
+
+body.morning {
+  background-image: url("../gallery/mobile/sun_rise3.jpg");
+}
+
+body.afternoon {
+  background-image: url("../gallery/mobile/afternoon3.jpg");
+}
+
+body.evening {
+  background-image: url("../gallery/mobile/sun_set3.jpg");
+}
+
+body.night {
+  background-image: url("../gallery/mobile/night3.jpg");
+}
+
+@media (min-width: 897px) {
+  body.default {
+    background-image: url("../gallery/tablet/loading2.jpg");
+  }
+  body.morning {
+    background-image: url("../gallery/tablet/sun_rise2.jpg");
+  }
+  body.afternoon {
+    background-image: url("../gallery/tablet/afternoon2.jpg");
+  }
+  body.evening {
+    background-image: url("../gallery/tablet/sun_set2.jpg");
+  }
+  body.night {
+    background-image: url("../gallery/tablet/night2.jpg");
+  }
+  body {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1281px) {
+  body.default {
+    background-image: url("../gallery/desktop/loading1.jpg");
+  }
+  body.morning {
+    background-image: url("../gallery/desktop/sun_rise1.jpg");
+  }
+  body.afternoon {
+    background-image: url("../gallery/desktop/afternoon1.jpg");
+  }
+  body.evening {
+    background-image: url("../gallery/desktop/sun_set1.jpg");
+  }
+  body.night {
+    background-image: url("../gallery/desktop/night1.jpg");
+  }
+  body {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1.25rem;
+  }
+}
+
+.fact {
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.clock {
+  padding-top: 150px;
+}

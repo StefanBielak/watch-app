@@ -1,0 +1,137 @@
+.worldTime_container {
+  transition: margin-top 0.5s ease-in-out;
+}
+
+.worldTime_container.expanded {
+  margin-top: -100px;
+}
+
+.additional-info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #979797;
+  color: #000;
+  transition: height 0.5s ease-in-out, bottom 0.5s ease-in-out;
+  z-index: 1000;
+  padding: 0;
+  box-sizing: border-box;
+  height: 0;
+  overflow: hidden;
+}
+
+.additional-info.expanded {
+  height: 600px;
+}
+
+.info_container {
+  justify-content: space-between;
+  margin: 2rem 4rem 2rem 4rem;
+  padding: 0 1rem;
+}
+
+.info_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.weather_box {
+  margin-top: 40px;
+  background-color: #FAEBD7;
+  padding: 10px 60px 10px 60px;
+  border-radius: 25px;
+  line-height: 0.4;
+}
+
+.weather_title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+.weather_details {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 897px) {
+  .worldTime_container.expanded {
+    margin-top: -200px;
+  }
+  .info_container {
+    margin: 4rem 4rem 4rem 4rem;
+  }
+  .info_title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+  }
+  .weather_box {
+    background-color: #FAEBD7;
+    padding: 10px 60px 10px 60px;
+    border-radius: 25px;
+    line-height: 0.4;
+  }
+  .weather_title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+  }
+  .weather_details {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 1rem;
+  }
+  .additional-info.expanded {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .info_container {
+    margin: 4rem 4rem 4rem 4rem;
+    display: flex;
+  }
+  .additional-info.expanded {
+    height: 500px;
+  }
+  .worldTime_container.expanded {
+    margin-top: -250px;
+  }
+  .info_box {
+    display: inline;
+  }
+  .info_title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    display: flex;
+  }
+  .weather_box {
+    background-color: #FAEBD7;
+    padding: 10px 140px 10px 140px;
+    border-radius: 25px;
+    line-height: 0.4;
+  }
+  .weather_title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+  }
+  .weather_details {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 1.5rem;
+  }
+}

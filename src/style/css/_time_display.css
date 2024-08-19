@@ -1,0 +1,129 @@
+.timeDisplay {
+  text-align: left;
+  transition: transform 0.5s ease-in-out;
+  position: relative;
+}
+
+.timeDisplay_text {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.timeDisplay_icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.875rem;
+  vertical-align: middle;
+}
+
+.timeDisplay_date {
+  font-size: 1.125rem;
+}
+
+.timeDisplay_clock {
+  font-size: 6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.timeDisplay_city {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.timeDisplay.expanded {
+  transition: transform 0.5s ease-in-out;
+}
+
+.timeDisplay .button {
+  background-color: #fff;
+  color: black;
+  padding: 0 3.75rem;
+  border-radius: 24px;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease, letter-spacing 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.timeDisplay .button_icon {
+  width: 1.25rem;
+  height: 2.5rem;
+  margin-left: 0.875rem;
+  vertical-align: middle;
+}
+
+.timeDisplay .button_icon_rotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 1281px) {
+  .timeDisplay .button {
+    font-size: 28px;
+  }
+}
+
+.timeDisplay .button:hover {
+  background-color: black;
+  color: #fff;
+  letter-spacing: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 897px) {
+  .timeDisplay_text {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+  .timeDisplay_icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .timeDisplay_date {
+    font-size: 1.5rem;
+  }
+  .timeDisplay_clock {
+    font-size: 12rem;
+  }
+  .timeDisplay_city {
+    font-size: 2rem;
+  }
+  .timeDisplay_box {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1281px) {
+  .timeDisplay_text {
+    font-size: 2.5rem;
+    letter-spacing: 0.75rem;
+    gap: 15px;
+  }
+  .timeDisplay_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .timeDisplay_date {
+    font-size: 2rem;
+  }
+  .timeDisplay_clock {
+    font-size: 14rem;
+  }
+  .timeDisplay_city {
+    font-size: 2.5rem;
+  }
+  .timeDisplay_box {
+    display: flex;
+    justify-content: space-between;
+  }
+}
