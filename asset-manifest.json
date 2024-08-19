@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/watch-app/static/css/main.75e6fa2c.css",
+    "main.js": "/watch-app/static/js/main.fb70c5dc.js",
+    "static/media/afternoon1.jpg": "/watch-app/static/media/afternoon1.3fae96039c26053892ea.jpg",
+    "static/media/night1.jpg": "/watch-app/static/media/night1.6c6d12198d395f3172da.jpg",
+    "static/media/sun_set1.jpg": "/watch-app/static/media/sun_set1.1c3bd9b5efd5a80114f7.jpg",
+    "static/media/sun_rise1.jpg": "/watch-app/static/media/sun_rise1.b9c6c36a210f4419be5d.jpg",
+    "static/media/afternoon2.jpg": "/watch-app/static/media/afternoon2.970b8ade8a6de0d9951e.jpg",
+    "static/media/night2.jpg": "/watch-app/static/media/night2.4783612fbcaf0ff8534b.jpg",
+    "static/media/sun_set2.jpg": "/watch-app/static/media/sun_set2.7a0b23dc0e280718f773.jpg",
+    "static/media/afternoon3.jpg": "/watch-app/static/media/afternoon3.39cab1b2f46d786a6811.jpg",
+    "static/media/sun_rise2.jpg": "/watch-app/static/media/sun_rise2.be1e407e24a16105a9da.jpg",
+    "static/media/night3.jpg": "/watch-app/static/media/night3.6db978dff353b858cb3e.jpg",
+    "static/media/sun_set3.jpg": "/watch-app/static/media/sun_set3.6b4bf86c34da2314efde.jpg",
+    "static/media/sun_rise3.jpg": "/watch-app/static/media/sun_rise3.12ff9350c89ae53e5d37.jpg",
+    "static/media/loading1.jpg": "/watch-app/static/media/loading1.20dd264b0bab0532a902.jpg",
+    "static/media/loading2.jpg": "/watch-app/static/media/loading2.ce78ff436380cd3bc333.jpg",
+    "static/media/loading3.jpg": "/watch-app/static/media/loading3.c01b8e82283f20dba000.jpg",
+    "static/media/icons_search.svg": "/watch-app/static/media/icons_search.ed22b62fa59931a65f5d60bcc5f3d7ee.svg",
+    "static/media/icon-sun.svg": "/watch-app/static/media/icon-sun.cb7a2aac3be7bf88b4cf17bd97d62fd2.svg",
+    "index.html": "/watch-app/index.html",
+    "static/media/icon-refresh.svg": "/watch-app/static/media/icon-refresh.ea53ab6ccdf4f693fec6ab345a1c042a.svg",
+    "static/media/icon-moon.svg": "/watch-app/static/media/icon-moon.83b9f0dbe53bfaab2e1c6dc344545e9c.svg",
+    "static/media/icon-arrow-down.svg": "/watch-app/static/media/icon-arrow-down.7f385f291396029e6ca9552887b40f3a.svg",
+    "main.75e6fa2c.css.map": "/watch-app/static/css/main.75e6fa2c.css.map",
+    "main.fb70c5dc.js.map": "/watch-app/static/js/main.fb70c5dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75e6fa2c.css",
+    "static/js/main.fb70c5dc.js"
+  ]
+}
