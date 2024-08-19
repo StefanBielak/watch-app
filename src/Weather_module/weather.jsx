@@ -5,14 +5,11 @@ const WeatherDisplay = ({ cityName }) => {
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiKey = process.env.REACT_APP_API_KEY;
-  
-
   useEffect(() => {
     const fetchWeather = async () => {
       try {
         const response = await axios.get(
-          `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`
+          `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=10f343d6cfaa09d25b82e813dd6ca785&units=metric`
         );
         setWeather(response.data);
         setError(null);
