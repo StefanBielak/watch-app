@@ -17,7 +17,7 @@ const WorldTime = () => {
     const fetchTimezones = async () => {
       try {
         const response = await axios.get(
-          "http://worldtimeapi.org/api/timezone"
+          "https://worldtimeapi.org/api/timezone"
         );
         setTimezones(response.data);
       } catch (err) {
@@ -32,7 +32,7 @@ const WorldTime = () => {
     const fetchTime = async () => {
       try {
         const response = await axios.get(
-          `http://worldtimeapi.org/api/timezone/${timezone}`
+          `https://worldtimeapi.org/api/timezone/${timezone}`
         );
         setTime(response.data);
         setError(null);
