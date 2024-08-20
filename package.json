@@ -45,5 +45,5 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "proxy": "http://worldtimeapi.org"
+  "proxy": "https://worldtimeapi.org"
 }
