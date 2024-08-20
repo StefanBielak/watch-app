@@ -16,9 +16,7 @@ const WorldTime = () => {
   useEffect(() => {
     const fetchTimezones = async () => {
       try {
-        const response = await axios.get(
-          "https://worldtimeapi.org/api/timezone"
-        );
+        const response = await axios.get("http://localhost:3000/api/timezone");
         setTimezones(response.data);
       } catch (err) {
         setError("Error fetching timezones");
