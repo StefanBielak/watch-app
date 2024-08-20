@@ -11,7 +11,7 @@ Screenshots:
 ![Screenshot](./screenshots/screenshot2.png)
 
 Description:
-Aplikacja łączy zegarek oraz prognozę pogody. Możemy wybrać dowolną stolicę państwa na świcie sprawdzić godzinę oraz pogodę w danym miejscu. Random facts from many fields make our time more pleasant.
+The application combines a watch and a weather forecast. We can choose any capital city in the world to check the time and weather in a given place. Random facts from many fields make our time more pleasant.
 
 API :
 1. openweathermap
